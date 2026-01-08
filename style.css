@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "inter", sans-serif;
+}
+.card-img {
+  padding: 14px;
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+}
