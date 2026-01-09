@@ -163,6 +163,7 @@ body {
   box-shadow: 1px 0px 8px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.06);
   background-color: #ffffff;
+  border-radius: 4px;
 }
 #problems .problems-content .card-items .card .card-img {
   margin: 30px auto 0;
@@ -185,13 +186,17 @@ body {
   background: rgba(249, 85, 85, 1);
   border-radius: 50%;
 }
-#solutions {
+#solutions,
+#first-step {
   background-color: #ffffff;
 }
 #solutions .solutions-content {
   margin: 120px 0;
   display: flex;
   gap: 60px;
+}
+#solutions .solutions-content .solutions-img-box {
+  border-radius: 4px;
 }
 #solutions .solutions-content .solutions-box {
   margin: auto 0;
@@ -200,7 +205,7 @@ body {
   text-transform: uppercase;
   color: #469165;
   font-size: 16px;
-  margin-bottom: 16px;  
+  margin-bottom: 16px;
 }
 #solutions .solutions-content .solutions-box .section-title {
   margin-bottom: 16px;
@@ -208,7 +213,6 @@ body {
 #solutions .solutions-content .solutions-box .section-text {
   margin-bottom: 16px;
   max-width: 50ch;
-  
 }
 #solutions .solutions-content .solutions-box .solution-list {
   list-style: none;
@@ -223,5 +227,37 @@ body {
 #solutions .solutions-content .solutions-box .solution-list li img {
   vertical-align: bottom;
   margin-right: 6px;
+}
+#first-step .first-step-content {
+  background-color: #fbfbfb;
+  border-radius: 4px;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 16px;
+}
+#first-step .first-step-content .section-title {
+  text-align: center;
+}
+#first-step .first-step-content .section-text,
+p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  max-width: 61ch;
+  align-self: center;
+}
+#first-step .first-step-content .btn-1 {
+  margin: 0 auto;
+  padding: 16px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+}
+#first-step .first-step-content .btn-1 img {
+  vertical-align: bottom;
+  margin-left: 8px;
 }
 
