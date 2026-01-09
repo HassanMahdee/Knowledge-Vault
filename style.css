@@ -180,8 +180,48 @@ body {
   line-height: 20px;
   text-align: center;
 }
-.card-img {
+#problems .problems-content .card-items .card .card-img {
   padding: 14px;
   background: rgba(249, 85, 85, 1);
   border-radius: 50%;
 }
+#solutions {
+  background-color: #ffffff;
+}
+#solutions .solutions-content {
+  margin: 120px 0;
+  display: flex;
+  gap: 60px;
+}
+#solutions .solutions-content .solutions-box {
+  margin: auto 0;
+}
+#solutions .solutions-content .solutions-box .sub-title {
+  text-transform: uppercase;
+  color: #469165;
+  font-size: 16px;
+  margin-bottom: 16px;  
+}
+#solutions .solutions-content .solutions-box .section-title {
+  margin-bottom: 16px;
+}
+#solutions .solutions-content .solutions-box .section-text {
+  margin-bottom: 16px;
+  max-width: 50ch;
+  
+}
+#solutions .solutions-content .solutions-box .solution-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+#solutions .solutions-content .solutions-box .solution-list li {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+#solutions .solutions-content .solutions-box .solution-list li img {
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+
