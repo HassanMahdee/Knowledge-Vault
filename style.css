@@ -2,16 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1600px;
+}
+.container {
+  padding: 0 120px;
 }
 .btn-1 {
-  background-color: #30b868;
+  background-color: #469165;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 .btn-1:hover {
-  background-color: #28a75a;
+  background-color: #3e7e58;
+}
+.btn-2 {
+  padding: 16px;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-2:hover {
+  background-color: #00000025;
 }
 body {
   font-family: "inter", sans-serif;
@@ -36,9 +51,76 @@ body {
 .nav-bar .btn-1 {
   padding: 12px 16px;
 }
-
-
-
+#banner {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+#banner .banner-content {
+  text-align: center;
+  padding: 120px 250px;
+}
+#banner .banner-content .pill-design {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 8px 12px;
+}
+#banner .banner-content .pill-design .pill-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #469165;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #76ce9a, 0 0 0 6px #c9fadd;
+}
+#banner .banner-content .pill-design .pill-text {
+  font-size: 16px;
+  color: #469165;
+}
+#banner .banner-content .banner-title {
+  margin: 16px 0;
+  color: #fbfbfb;
+    font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+}
+#banner .banner-content .banner-title span {
+  color: #469165;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+}
+#banner .banner-content .banner-text {
+  padding-bottom: 16px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+#banner .banner-content .btn-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#banner .banner-content .btn-set .btn-1 {
+  padding: 16px;
+}
+#banner .banner-content .btn-set .btn-1 .btn-1-img {
+  margin-left: 8px;
+  vertical-align: bottom;
+}
+#banner .banner-content .btn-set .btn-2 i {
+  margin-right: 8px;
+}
 .card-img {
   padding: 14px;
   background: rgba(249, 85, 85, 1);
