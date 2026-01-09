@@ -80,7 +80,7 @@ body {
   background-color: #fff;
   width: fit-content;
   border-radius: 999px;
-  padding: 8px 12px;
+  padding: 4px 16px;
 }
 #banner .banner-content .pill-design .pill-dot {
   height: 8px;
@@ -92,6 +92,7 @@ body {
 #banner .banner-content .pill-design .pill-text {
   font-size: 16px;
   color: #469165;
+  margin-left: 4px;
 }
 #banner .banner-content .banner-title {
   margin: 16px 0;
@@ -260,4 +261,34 @@ p {
   vertical-align: bottom;
   margin-left: 8px;
 }
-
+#footer {
+  background-color: #001931;
+  padding: 120px 120px 30px;
+}
+#footer .footer-container .footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 110px;
+  margin-bottom: 80px;
+}
+#footer .footer-container .footer-box .socials p {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+#footer .footer-container .footer-box .socials a img {
+  width: 20px;
+  height: 20px;
+}
+#footer .footer-container hr {
+  opacity: .4;
+}
+#footer .footer-container .footer-text {
+  color: #ffffff;
+  text-align: center;
+  margin: 30px auto 0;
+}
